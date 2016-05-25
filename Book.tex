@@ -1,0 +1,204 @@
+\documentclass[oneside]{book}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{imakeidx}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{amsmath}
+%\usepackage{polyglossia}
+%\usepackage{banglatex}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[EL]{\nouppercase\leftmark}
+\fancyhead[OR]{\nouppercase\rightmark}
+\fancyhead[ER,OL]{\thepage}
+
+\makeindex
+\begin{document}
+\frontmaker
+\title{\bf Kono title nai}
+\author{\bf Abdullah\\CSE, SUST \and \bf Moqsadur\\CSE, SUST}
+\date{25 May 2016}
+\maketitle
+\tableofcontents
+\mainmaker
+\part{PartA}
+\chapter{Preface}
+This is {\bf preface}. This is space\verb+   + before Bangladesh.
+\chapter{Project management}
+In principle, the price of a software \cite{software} product to a customer is simply the cost of development 
+. \index{development@development}
+plus profit for the developer. In practice, however, the relationship between.
+\section{Managing project}
+\begin{large}
+This is a country where every people like each other. They can't each other.
+\end{large}
+{\large This is a country where every people like each other. They can't each other. \par}
+\begin{small}vcbvc
+This is a country where every people like each other. They can't each other.
+\end{small}
+\begin{tiny}
+This is a country where every people like each other. They can't each other.
+\end{tiny}
+In principle, the price of a software product to a customer \cite{customer} is simply the cost of development plus profit for the developer.
+\index{progress@progress}
+\subsection{How can you manage it?}
+1. At the proposal stage\\
+2. At the proposal stage\\
+3. At the proposal stage\\
+
+\begin{list_type}
+\item Apple
+	\item Jambura
+\item Orange
+\item Banana
+\end{list_type}
+
+\begin{itemize}
+	\item Book
+	\item Pen
+	\item Ball
+	\item Tennis
+\end{itemize}
+
+\begin{enumerate}
+	\item Abdullah
+	\item Shamim
+	\begin{enumerate}
+		\item Swarna
+		\item Children
+	\end{enumerate}
+\end{enumerate}
+%{center} for center align-ment. Y can also add
+\begin{center}
+
+\begin{tabular}{|l|c||r|||}
+
+\hline
+\multicolumn{3}{|c|}{Name}\\
+\hline
+1 & 2 & 3\\ \hline
+4 & 5 & 6\\ \hline \hline
+7 & 8 & 9\\ \hline
+
+\end{tabular}
+\end{center}
+
+
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.1]{SUST_Color}}
+\caption{Tulips}
+\label{fig:tulips}
+\end{figure}
+
+\begin{center}
+	\begin{tabular}{ |l|l|l| }
+\hline
+\multicolumn{3}{ |c| }{Team sheet} \\
+\hline
+Goalkeeper & GK & Paul Robinson \\ \hline
+\multirow{4}{*}{Defenders} & LB & Lucus Radebe \\
+& DC & Michael Duburry \\
+& DC & Dominic Matteo \\
+& RB & Didier Domi \\ \hline
+\multirow{3}{*}{Midfielders} & MC & David Batty \\
+& MC & Eirik Bakke \\
+& MC & Jody Morris \\ \hline
+Forward & FW & Jamie McMaster \\ \hline
+\multirow{2}{*}{Strikers} & ST & Alan Smith \\
+& ST & Mark Viduka \\
+\hline
+\end{tabular}
+
+\end{center}
+
+{\large \alpha, \beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \Phi, \Delta }\\
+k_{n+1} = n^2 + k_{n^3}^2 - k_{n-1} \\
+f(n) = n^5 + 4n^2 + 2 |_{n=17}\\
+\cos (2\theta) = \cos^2 \theta - \sin^2 \theta \\
+\lim_{x \to \infty} \exp(-x) = 0 \\
+a \bmod b \\
+x \equiv a \pmod b \\
+\frac{n!}{k!(n-k)!} = \binom{n}{k} \\
+\frac{\frac{1}{x}+\frac{1}{y}}{y-z} \\
+\sqrt{\frac{a}{b}} \\
+\sqrt[n]{1+x+x^2+x^3+\ldots} \\
+\sum_{i=1}^{10} t_i \\
+\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x \\
+\sum_{\substack{0<i<m\\i<m<n}} \\
+\int\limits_a^b \\
+( a ), [ b ], \{ c \}, | d |, \| e \|, \langle f \rangle, \lfloor g \rfloor, \lceil h \rceil, \ulcorner i \urcorner \\
+P\left(A=2\middle|\frac{A^2}{B}>4\right) \\
+\left\{\frac{x^2}{y^3}\right\} \\
+\left.\frac{x^3}{3}\right|_0^1 \\
+( \big( \Big( \bigg( \Bigg( \\
+\frac{\mathrm d}{\mathrm d x} \big( k g(x) \big) \\
+
+\begin{center}
+\fbox{
+	\begin{matrix}
+a & b & c \\
+d & e & f \\
+g & h & i
+\end{matrix}
+}
+\end{center}
+
+
+\fbox{
+\begin{matrix}
+-1 & 3 \\
+2 & -4
+\end{matrix}
+=
+\begin{matrix}
+-1 & 3 \\
+2 & -4
+\end{matrix}
+}
+
+
+50 \text{ apples} \times 100 \text{ apples} = \text{lots of apples}^2 \\
+
+
+\fbox{
+\begin{array}{c|c}
+1 & 2 \\
+\hline
+3 & 4
+\end{array}
+}
+
+\\
+
+A_{m,n} =
+\begin{pmatrix}
+a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+\end{pmatrix}
+\\
+
+
+
+\backmaker
+\begin{thebibliography}{99}
+
+\bibitem{software}
+This software is made by \textit{Microsoft}
+
+\bibitem{customer}
+Customer can nit buy what \texttt{they} want.
+
+\end{thebibliography}
+\appendix
+\chapter{Appendix A}
+Here you can add section, subsection etc.
+\chapter{Appendix B}
+Here also you can add section, subsection etc.
+\printindex
+
+\end{document}
